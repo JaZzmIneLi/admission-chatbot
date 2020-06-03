@@ -1,0 +1,12 @@
+0,SCHOLARSHIP,*,*,Are you an International or Australian student,Fees and Scholarships.aiml
+0,INTERNATIONAL,ARE YOU AN INTERNATIONAL OR AUSTRALIAN STUDENT,*,For international students#Comma we offer Academic merit-based scholarships valued up to 40% of total tuition (all programs except Global). And yo know what#Comma the average salary of CMUA students is so high. It is a good investment for your future!,Fees and Scholarships.aiml
+0,AUSTRALIAN,ARE YOU AN INTERNATIONAL OR AUSTRALIAN STUDENT,*,For Australian students#Comma we offer Downer-Rann scholarships valued at 60% of total tuition. Additional#Comma you can apply for academic merit-based scholarships valued up to $10#Comma000 (all programs except Global) And yo know what#Comma the average salary of CMUA students is so high. It is a good investment for your future!,Fees and Scholarships.aiml
+0,_ SCHOLARSHIP,*,*,<srai>scholarship</srai>,Fees and Scholarships.aiml
+0,_ SCHOLARSHIP *,*,*,<srai>scholarship</srai>,Fees and Scholarships.aiml
+0,SCHOLARSHIP *,*,*,<srai>scholarship</srai>,Fees and Scholarships.aiml
+0,_ INTERNATIONAL,*,*,<srai>International</srai>,Fees and Scholarships.aiml
+0,_ INTERNATIONAL *,*,*,<srai>International</srai>,Fees and Scholarships.aiml
+0,INTERNATIONAL *,*,*,<srai>International</srai>,Fees and Scholarships.aiml
+0,_ AUSTRALIAN,*,*,<srai>Australian</srai>,Fees and Scholarships.aiml
+0,_ AUSTRALIAN *,*,*,<srai>Australian</srai>,Fees and Scholarships.aiml
+0,AUSTRALIAN *,*,*,<srai>Australian</srai>,Fees and Scholarships.aiml

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+      <pattern>fee</pattern>
+      <template>I guess you may wanna ask me questions about deposit or fee help</template>  
+   </category>
+
+<category>
+      <pattern>deposit</pattern>
+      <template>Are you a sponsored student, Yes or NO</template>  
+   </category>
+   
+    <category>
+       <pattern>_ deposit</pattern>
+       <template>
+          <srai>deposit<star/></srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>_ deposit *</pattern>
+       <template>
+          <srai>deposit<star/></srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>deposit *</pattern>
+       <template>
+          <srai>deposit<star/></srai>
+        </template>
+   </category>
+   
+   <category>
+      <pattern>YES</pattern>
+	  <that>Are you a sponsored student, Yes or NO</that>
+	  <template>Students sponsored by an approved partner of Carnegie Mellon University in Australia will not be required to pay the tuition deposit. The sponsoring agency will be invoiced for the tuition fee amount at census date.</template>
+   </category>
+   
+   <category>
+      <pattern>No</pattern>
+	  <that>Are you a sponsored student, Yes or NO</that>
+	  <template>Well, I am excited to inform you a great news that you ... HAVE TO pay for it. Hhhhhh!</template>
+   </category>
+   
+   <category>
+      <pattern>FEE HELP</pattern>
+      <template>Are you an Australian citizen, Yes or NO</template>  
+   </category>
+   
+   <category>
+       <pattern>_ FEE HELP</pattern>
+       <template>
+          <srai>FEE HELP<star/></srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>_ FEE HELP *</pattern>
+       <template>
+          <srai>FEE HELP<star/></srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>FEE HELP *</pattern>
+       <template>
+          <srai>FEE HELP<star/></srai>
+        </template>
+   </category>
+   
+   <category>
+      <pattern>YES</pattern>
+	  <that>Are you an Australian citizen, Yes or NO</that>
+	  <template>I have a good news for you! You should be able to access FEE-HELP.</template>
+   </category>
+
+   <category>
+      <pattern>no</pattern>
+	  <that>Are you an Australian citizen, Yes or NO</that>
+	  <template>I am sorry that you cannot access FEE-HELP.</template>
+   </category>
+</aiml>

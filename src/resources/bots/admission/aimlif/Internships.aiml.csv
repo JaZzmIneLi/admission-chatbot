@@ -1,0 +1,34 @@
+0,INTERNSHIP,*,*,Wow#Comma good question. Internship is a compulsory course for CMUA students. I guess you want to ask me about assistance for internship. Or places you can do internship?,Internships.aiml
+0,INTERNSHIP INTERNATIONALLY,*,*,Yes#Comma you may choose to take your internship in Australia or globally (except the United States).,Internships.aiml
+0,ASSISTANCE * INTERNSHIP,*,*,Students are encouraged to intern in an organisation that corresponds to your individual area of interest and career goals. You may choose to find an internship yourself or seek the support from our Career Services.,Internships.aiml
+0,WHERE * INTERNSHIP,*,*,You can find a list of our past internship placements on our Internships page: https://cmu-dev.australia.cmu.edu/student-experience/internships,Internships.aiml
+0,WHERE * INTERNSHIP *,*,*,<srai>Where * internship</srai>,Internships.aiml
+0,WHERE * INTERNSHIPS *,*,*,<srai>Where * internship</srai>,Internships.aiml
+0,* COUNTRY * INTERNSHIP,*,*,<srai>Where * internship</srai>,Internships.aiml
+0,* COUNTRY * INTERNSHIP *,*,*,<srai>Where * internship</srai>,Internships.aiml
+0,* COUNTRY * INTERNSHIPS,*,*,<srai>Where * internship</srai>,Internships.aiml
+0,* COUNTRY * INTERNSHIPS *,*,*,<srai>Where * internship</srai>,Internships.aiml
+0,* COUNTRIES * INTERNSHIP,*,*,<srai>Where * internship</srai>,Internships.aiml
+0,* COUNTRIES * INTERNSHIP *,*,*,<srai>Where * internship</srai>,Internships.aiml
+0,* COUNTRIES * INTERNSHIPS,*,*,<srai>Where * internship</srai>,Internships.aiml
+0,* COUNTRIES * INTERNSHIPS *,*,*,<srai>Where * internship</srai>,Internships.aiml
+0,* PLACE * INTERNSHIP,*,*,<srai>Where * internship</srai>,Internships.aiml
+0,* PLACE * INTERNSHIP *,*,*,<srai>Where * internship</srai>,Internships.aiml
+0,_ PLACE * INTERNSHIPS,*,*,<srai>Where * internship</srai>,Internships.aiml
+0,PLACE * INTERNSHIPS,*,*,<srai>Where * internship</srai>,Internships.aiml
+0,PLACES * INTERNSHIP,*,*,<srai>Where * internship</srai>,Internships.aiml
+0,PLACES * INTERNSHIPS,*,*,<srai>Where * internship</srai>,Internships.aiml
+0,HELP * INTERNSHIP,*,*,<srai>assistance * internship</srai>,Internships.aiml
+0,_ HELP * INTERNSHIP,*,*,<srai>assistance * internship</srai>,Internships.aiml
+0,_ ASSIST * INTERNSHIP,*,*,<srai>assistance * internship</srai>,Internships.aiml
+0,_ ASSIST * INTERNSHIP *,*,*,<srai>assistance * internship</srai>,Internships.aiml
+0,_ ASSISTANCE * INTERNSHIP,*,*,<srai>assistance * internship</srai>,Internships.aiml
+0,_ HELP * INTERNSHIPS,*,*,<srai>assistance * internship</srai>,Internships.aiml
+0,_ HELP * INTERNSHIPS *,*,*,<srai>assistance * internship</srai>,Internships.aiml
+0,_ ASSIST * INTERNSHIPS,*,*,<srai>assistance * internship</srai>,Internships.aiml
+0,_ ASSIST * INTERNSHIPS *,*,*,<srai>assistance * internship</srai>,Internships.aiml
+0,_ ASSISTANCE * INTERNSHIPS,*,*,<srai>assistance * internship</srai>,Internships.aiml
+0,_ INTERNSHIP INTERNATIONALLY,*,*,<srai>internship internationally</srai>,Internships.aiml
+0,_ INTERNSHIPS INTERNATIONALLY,*,*,<srai>internship internationally</srai>,Internships.aiml
+0,_ INTERNSHIP GLOBALLY,*,*,<srai>internship internationally</srai>,Internships.aiml
+0,_ INTERNSHIPS GLOBALLY,*,*,<srai>internship internationally</srai>,Internships.aiml

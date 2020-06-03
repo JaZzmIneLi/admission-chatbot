@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chatbot.ChatBotController">
+   <children>
+      <AnchorPane layoutY="-5.0" prefHeight="477.0" prefWidth="506.0" HBox.hgrow="ALWAYS">
+         <children>
+            <TextField fx:id="message" alignment="TOP_LEFT" layoutX="87.0" layoutY="395.0" prefHeight="68.0" prefWidth="310.0" promptText="Input Your Message" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="87.0" AnchorPane.rightAnchor="109.0" />
+            <Button fx:id="sendMessagesBtn" defaultButton="true" layoutX="410.0" layoutY="408.0" mnemonicParsing="false" onAction="#sendMessages" prefHeight="44.0" prefWidth="78.0" text="Send" AnchorPane.bottomAnchor="25.0" AnchorPane.rightAnchor="18.0" />
+            <TextArea fx:id="showTxtLabel" editable="false" layoutX="16.0" layoutY="87.0" prefHeight="288.0" prefWidth="476.0" text="Bot: Hi, are you good？" wrapText="true" AnchorPane.bottomAnchor="102.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="87.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextArea>
+            <ImageView fitHeight="68.0" fitWidth="95.0" layoutX="16.0" layoutY="8.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../chatbot.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="84.0" layoutY="32.0" mouseTransparent="true" text="ChatBot" textFill="#4492ab">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="record" fitHeight="32.0" fitWidth="68.0" layoutX="50.0" layoutY="392.0" onMouseClicked="#voiceRecord" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="53.0" AnchorPane.leftAnchor="50.0">
+               <image>
+                  <Image url="@../record.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="read" fitHeight="32.0" fitWidth="78.0" layoutX="50.0" layoutY="422.0" onMouseClicked="#readMessage" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../read.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="7.0" layoutY="401.0" text="Record" textFill="#d0cbcb" />
+            <Label layoutX="16.0" layoutY="431.0" text="Read" textFill="#d0cbcb" />
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

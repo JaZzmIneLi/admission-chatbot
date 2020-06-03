@@ -1,0 +1,13 @@
+0,GRADUATION,*,*,I am sure that you will surfer a lot before Graduation. LOL Don't worry#Comma just relaxed. You are able to make a big change. You may ask me questions about Transcript#Comma degree or ceremony.,Graduation and Transcripts.aiml
+0,DEGREE,*,*,Students graduate with exactly the same degree and transcripts as students who graduate in Pittsburgh. All degrees are conferred from our Pittsburgh office.,Graduation and Transcripts.aiml
+0,TRANSCRIPT,*,*,No campus details are listed on your degree or transcript.,Graduation and Transcripts.aiml
+0,CEREMONY,*,*,Students are able to attend the graduation ceremony in Pittsburgh.  Travel and accommodation for the ceremony will be covered at the student's own expense.,Graduation and Transcripts.aiml
+0,_ CEREMONY,*,*,<srai>ceremony</srai>,Graduation and Transcripts.aiml
+0,_ CEREMONY *,*,*,<srai>ceremony</srai>,Graduation and Transcripts.aiml
+0,CEREMONY *,*,*,<srai>ceremony</srai>,Graduation and Transcripts.aiml
+0,_ TRANSCRIPT,*,*,<srai>transcript</srai>,Graduation and Transcripts.aiml
+0,_ TRANSCRIPT *,*,*,<srai>transcript</srai>,Graduation and Transcripts.aiml
+0,TRANSCRIPT *,*,*,<srai>transcript</srai>,Graduation and Transcripts.aiml
+0,_ DEGREE,*,*,<srai>degree</srai>,Graduation and Transcripts.aiml
+0,_ DEGREE *,*,*,<srai>degree</srai>,Graduation and Transcripts.aiml
+0,DEGREE *,*,*,<srai>degree</srai>,Graduation and Transcripts.aiml

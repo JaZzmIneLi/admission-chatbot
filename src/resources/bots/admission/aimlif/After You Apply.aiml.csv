@@ -1,0 +1,13 @@
+0,FEE,*,*,I guess you may wanna ask me questions about deposit or fee help,After You Apply.aiml
+0,DEPOSIT,*,*,Are you a sponsored student#Comma Yes or NO,After You Apply.aiml
+0,_ DEPOSIT,*,*,<srai>deposit<star/></srai>,After You Apply.aiml
+0,_ DEPOSIT *,*,*,<srai>deposit<star/></srai>,After You Apply.aiml
+0,DEPOSIT *,*,*,<srai>deposit<star/></srai>,After You Apply.aiml
+0,YES,ARE YOU A SPONSORED STUDENT, YES OR NO,*,Students sponsored by an approved partner of Carnegie Mellon University in Australia will not be required to pay the tuition deposit. The sponsoring agency will be invoiced for the tuition fee amount at census date.,After You Apply.aiml
+0,NO,ARE YOU A SPONSORED STUDENT, YES OR NO,*,Well#Comma I am excited to inform you a great news that you ... HAVE TO pay for it. Hhhhhh!,After You Apply.aiml
+0,FEE HELP,*,*,Are you an Australian citizen#Comma Yes or NO,After You Apply.aiml
+0,_ FEE HELP,*,*,<srai>FEE HELP<star/></srai>,After You Apply.aiml
+0,_ FEE HELP *,*,*,<srai>FEE HELP<star/></srai>,After You Apply.aiml
+0,FEE HELP *,*,*,<srai>FEE HELP<star/></srai>,After You Apply.aiml
+0,YES,ARE YOU AN AUSTRALIAN CITIZEN, YES OR NO,*,I have a good news for you! You should be able to access FEE-HELP.,After You Apply.aiml
+0,NO,ARE YOU AN AUSTRALIAN CITIZEN, YES OR NO,*,I am sorry that you cannot access FEE-HELP.,After You Apply.aiml

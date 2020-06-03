@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+   
+   <category>
+      <pattern>scholarship</pattern>
+      <template>Are you an International or Australian student</template>  
+   </category>
+   
+   <category>
+      <pattern>International</pattern>
+	  <that>Are you an International or Australian student</that>
+	  <template>For international students, we offer Academic merit-based scholarships valued up to 40% of total tuition (all programs except Global). And yo know what, the average salary of CMUA students is so high. It is a good investment for your future!
+	</template>
+   </category>
+   
+   <category>
+      <pattern>Australian</pattern>
+	  <that>Are you an International or Australian student</that>
+	  <template>For Australian students, we offer Downer-Rann scholarships valued at 60% of total tuition. Additional, you can apply for academic merit-based scholarships valued up to $10,000 (all programs except Global) And yo know what, the average salary of CMUA students is so high. It is a good investment for your future!
+	</template>
+   </category>
+	  
+	  <category>
+         <pattern>_ scholarship</pattern>
+         <template>
+            <srai>scholarship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>_ scholarship *</pattern>
+         <template>
+            <srai>scholarship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>scholarship *</pattern>
+         <template>
+            <srai>scholarship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>_ International</pattern>
+         <template>
+            <srai>International</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>_ International *</pattern>
+         <template>
+            <srai>International</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>International *</pattern>
+         <template>
+            <srai>International</srai>
+        </template>
+      </category>
+
+      <category>
+         <pattern>_ Australian</pattern>
+         <template>
+            <srai>Australian</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>_ Australian *</pattern>
+         <template>
+            <srai>Australian</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>Australian *</pattern>
+         <template>
+            <srai>Australian</srai>
+        </template>
+      </category>
+
+</aiml>

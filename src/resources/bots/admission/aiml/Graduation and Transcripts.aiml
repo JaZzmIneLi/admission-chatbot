@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+   <category>
+      <pattern>graduation</pattern>
+      <template>I am sure that you will surfer a lot before Graduation. LOL Don't worry, just relaxed. You are able to make a big change. You may ask me questions about Transcript, degree or ceremony.</template>  
+   </category>
+
+   <category>
+      <pattern>degree</pattern>
+      <template>Students graduate with exactly the same degree and transcripts as students who graduate in Pittsburgh. All degrees are conferred from our Pittsburgh office.</template>  
+   </category>
+   
+   <category>
+       <pattern>transcript</pattern>
+       <template>No campus details are listed on your degree or transcript.</template>
+   </category>
+   
+   <category>
+       <pattern>ceremony</pattern>
+       <template>Students are able to attend the graduation ceremony in Pittsburgh.  Travel and accommodation for the ceremony will be covered at the student's own expense.</template>
+   </category>
+   
+   <category>
+       <pattern>_ ceremony</pattern>
+       <template>
+          <srai>ceremony</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>_ ceremony *</pattern>
+       <template>
+          <srai>ceremony</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>ceremony *</pattern>
+       <template>
+          <srai>ceremony</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>_ transcript</pattern>
+       <template>
+          <srai>transcript</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>_ transcript *</pattern>
+       <template>
+          <srai>transcript</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>transcript *</pattern>
+       <template>
+          <srai>transcript</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>_ degree</pattern>
+       <template>
+          <srai>degree</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>_ degree *</pattern>
+       <template>
+          <srai>degree</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>degree *</pattern>
+       <template>
+          <srai>degree</srai>
+        </template>
+   </category>
+
+</aiml>

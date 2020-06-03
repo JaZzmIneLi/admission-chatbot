@@ -1,0 +1,1963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category>
+    <pattern>Hi</pattern>
+    <template><random>
+            <li>Hi, it is a nice day! what can I help you? I can help with the problem with entry requirement, apply, program information, internship, work and study, fee, scholarship and graduation :)</li>
+            <li>Hello! Nice to meet you! what can I help you? I can help with the problem with entry requirement, apply, program information, internship, work and study, fee, scholarship and graduation :)</li>
+			<li>How are you today! what can I help you? I can help with the problem with entry requirement, apply, program information, internship, work and study, fee, scholarship and graduation :)</li>
+         </random></template>
+  </category>
+  
+  <category>
+    <pattern>_ Hi *</pattern>
+    <template>
+         <srai>Hi</srai>
+    </template>
+  </category>
+  
+   <category>
+    <pattern>_ Hi</pattern>
+    <template>
+         <srai>Hi</srai>
+    </template>
+  </category>
+  
+    <category>
+    <pattern>Hi *</pattern>
+    <template>
+         <srai>Hi</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>_ Hello *</pattern>
+    <template>
+         <srai>Hi</srai>
+    </template>
+  </category>
+  
+    <category>
+    <pattern>_ Hello</pattern>
+    <template>
+         <srai>Hi</srai>
+    </template>
+  </category>
+  
+    <category>
+    <pattern>Hello *</pattern>
+    <template>
+         <srai>Hi</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>Hello</pattern>
+    <template>
+         <srai>Hi</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>Hi, I am *</pattern>
+	<template><random>
+            <li>Hi <set name = "username"> <star/> </set>, it is a nice day! what can I help you? I can help with the problem with entry requirement, apply, program information, internship, work and study, fee, scholarship and graduation :)</li>
+            <li>Hello <set name = "username"> <star/> </set>! Nice to meet you! what can I help you? I can help with the problem with entry requirement, apply, program information, internship, work and study, fee, scholarship and graduation :)</li>
+			<li><set name = "username"> <star/> </set>, how are you today! what can I help you? I can help with the problem with entry requirement, apply, program information, internship, work and study, fee, scholarship and graduation :)</li>
+    </random></template>
+  </category> 
+  
+  <category>
+    <pattern>Hello, my name is *</pattern>
+    <template>
+         <srai>Hi, I am *</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>Hi, my name is *</pattern>
+    <template>
+         <srai>Hi, I am *</srai>
+    </template>
+  </category> 
+
+  <category>
+    <pattern>Hello, I am *</pattern>
+    <template>
+         <srai>Hi, I am *</srai>
+    </template>
+  </category>   
+  
+  <category>
+    <pattern>entry requirement</pattern>
+    <template>Do you want to ask general requirement or other questions?</template>
+  </category>
+  
+  <category>
+      <pattern>_ entry requirement</pattern>
+      <template>
+         <srai>entry requirement</srai>
+      </template>
+   </category>
+  
+    <category>
+      <pattern>entry requirement *</pattern>
+      <template>
+         <srai>entry requirement</srai>
+      </template>
+   </category>
+  
+    <category>
+      <pattern>_ entry requirement *</pattern>
+      <template>
+         <srai>entry requirement</srai>
+      </template>
+   </category>
+   
+   <category>
+    <pattern>General requirement</pattern>
+    <template>Are you Australian student or international student?</template>
+  </category>
+  
+  <category>
+      <pattern>_ General requirement</pattern>
+      <template>
+         <srai>General requirement</srai>
+      </template>
+   </category>
+  
+    <category>
+      <pattern>General requirement *</pattern>
+      <template>
+         <srai>General requirement</srai>
+      </template>
+   </category>
+  
+    <category>
+      <pattern>_ General requirement *</pattern>
+      <template>
+         <srai>General requirement</srai>
+      </template>
+   </category>
+  
+   <category>
+    <pattern>Australia</pattern>
+	<that>Are you Australian student or international student</that>
+    <template>For <set name = "country">Australian</set> student, what aspects do you want to know, You can choose academic, programming skills, work experience, test socre, GRE or GMAT, English test, resume, SoP, video interview, recommendation, transcript, verification.</template>
+  </category>
+  
+  <category>
+      <pattern>_ Australia</pattern>
+	  <that>Are you Australian student or international student</that>
+      <template>
+         <srai>Australia</srai>
+      </template>
+   </category>
+   
+  <category>
+      <pattern>Australia *</pattern>
+	  <that>Are you Australian student or international student</that>
+      <template>
+         <srai>Australia</srai>
+      </template>
+   </category>
+   
+  <category>
+      <pattern>_ Australia *</pattern>
+	  <that>Are you Australian student or international student</that>
+      <template>
+         <srai>Australia</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>Australian</pattern>
+	  <that>Are you Australian student or international student</that>
+      <template>
+         <srai>Australia</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ Australian</pattern>
+	  <that>Are you Australian student or international student</that>
+      <template>
+         <srai>Australia</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>Australian *</pattern>
+	  <that>Are you Australian student or international student</that>
+      <template>
+         <srai>Australia</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ Australian *</pattern>
+	  <that>Are you Australian student or international student</that>
+      <template>
+         <srai>Australia</srai>
+      </template>
+   </category>
+   
+   <category>
+    <pattern>international</pattern>
+	<that>Are you Australian student or international student</that>
+    <template>For <set name = "country">international</set> student, what aspects do you want to know, You can choose academic, programming skills, work experience, test socre, GRE or GMAT, English test, resume, SoP, video interview, recommendation, transcript, verification.</template>
+  </category>
+  
+   <category>
+      <pattern>_ international</pattern>
+	  <that>Are you Australian student or international student</that>
+      <template>
+         <srai>international</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>international *</pattern>
+	   <that>Are you Australian student or international student</that>
+      <template>
+         <srai>international</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>_ international *</pattern>
+	  <that>Are you Australian student or international student</that>
+      <template>
+         <srai>international</srai>
+      </template>
+   </category>
+  
+  <category>
+    <pattern>academic</pattern>
+	<template><condition name="country">
+	<li value="Australian"> All applicants must provide documentation of their completed undergraduate degree (a bachelor's degree or its equivalent) from a regionally accredited institution prior to matriculation. (Applicants who have not completed their bachelor's degree by the time they submit their application for admission may be admitted to CMU Australia with the condition they submit their final transcript, including their date of graduation, prior to the start of their first semester at CMU Australia.) For the Graduate Certificate in BIDA and the Advanced Certificate in BIDA applicants need a recently completed IT undergraduate degree. If applicants do not have this but have 3 or more years of recent professional IT work experience they are still eligible to apply.</li>
+    <li value="international">All applicants must provide documentation of their completed undergraduate degree (a bachelor's degree or its equivalent) from a regionally accredited institution prior to matriculation. (Applicants who have not completed their bachelor's degree by the time they submit their application for admission may be admitted to CMU Australia with the condition they submit their final transcript, including their date of graduation, prior to the start of their first semester at CMU Australia.).</li>
+	</condition>
+	</template>
+  </category>
+  
+   <category>
+      <pattern>_ academic</pattern>
+      <template>
+         <srai>academic</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>academic *</pattern>
+      <template>
+         <srai>academic</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ academic *</pattern>
+      <template>
+         <srai>academic</srai>
+      </template>
+   </category>
+  
+  <category>
+    <pattern>programming skills</pattern>
+	<template><condition name="country">
+	<li value="Australian"> All Information Technology programs require programming experience in data structures and an object-oriented programming language such as C, C++ or Java. Students who do not have this experience must achieve a grade of B or higher in one of the Java courses.</li>
+    <li value="international">All Information Technology programs require programming experience in data structures and an object-oriented programming language such as C, C++ or Java. Students who do not have this experience must achieve a grade of B or higher in one of the Java courses.</li>
+	</condition>
+	</template>
+  </category>
+  
+  <category>
+      <pattern>_ programming skills</pattern>
+      <template>
+         <srai>programming skills</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>programming skills *</pattern>
+      <template>
+         <srai>programming skills</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ programming skills *</pattern>
+      <template>
+         <srai>programming skills</srai>
+      </template>
+   </category>
+  
+  <category>
+    <pattern>work experience</pattern>
+	<template><condition name="country">
+	<li value="Australian">The 12-month track requires 3 or more years of professional work experience. The 21-month track does not require any work experience. For the Graduate Certificate in BIDA and the Advanced Certificate in BIDA applicants need 3 or more years of recent professional IT work experience.  If applicants do not have this work experience but have recently completed IT undergraduate degree they are still eligible to apply.</li>
+    <li value="international">The 12-month track requires 3 or more years of professional work experience. The 21-month track does not require any work experience.</li>
+	</condition>
+	</template>
+  </category>
+  
+   <category>
+      <pattern>_ work experience</pattern>
+      <template>
+         <srai>work experience</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>work experience *</pattern>
+      <template>
+         <srai>work experience</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ work experience *</pattern>
+      <template>
+         <srai>work experience</srai>
+      </template>
+   </category>
+  
+  <category>
+    <pattern>test score</pattern>
+	<template><condition name="country">
+	<li value="Australian">You are required to sit the CMU Institutional Maths Online Test.  About CMU IMOT: 1.The test is free of charge. 2. It is a one hour test comprising 32 multiple choice questions.  The topics include basic algebra, calculus and statistics calculations. 3.The test can only be taken once and you will need to achieve a minimum score of 75%.</li>
+    <li value="international">You are required to submit valid test results from either the GRE (General Test) or the GMAT from within the last 5 years, or sit for CMU Institutional Maths Online Test. For applicants taking CMU Institutional Maths Online Test CMU Institutional Maths Online Test (IMOT) is available as a substitute for GRE and GMAT for CMUA programs (except global programs). About CMU IMOT: 1. The test is free of charge. 2. It is a one hour test comprising 32 multiple choice questions.  The topics include basic algebra, calculus and statistics calculations. 3. The test can only be taken once and you will need to achieve a minimum score of 75%. For applicants taking GRE or GMAT Students must achieve an average minimum score of GRE 300 and GMAT 600. The test scores must be reported directly by the testing service. The Education Testing Service (ETS) administers the GRE (www.ets.org/gre). The Graduate Management Admissions Council (GMAC) administers the GMAT (www.mba.com). We recommend that applicants take the GMAT or GRE at least one month prior to the application deadline (please see Application Deadline information within each program's admissions requirements section). Please note there is no preference between the GRE or the GMAT for our Masters' programs.</li>
+	</condition>
+	</template>
+  </category>
+  
+   <category>
+      <pattern>_ test score</pattern>
+      <template>
+         <srai>test score</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>test score *</pattern>
+      <template>
+         <srai>test score</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ test score *</pattern>
+      <template>
+         <srai>test score</srai>
+      </template>
+   </category>
+   
+  <category>
+    <pattern>How to apply for the IMOT</pattern>
+    <template>1. Submit your online application. 2. After you have submitted your application, send your request to sit for CMU IMOT to admissions@australia.cmu.edu. 3. CMUA admissions team will then get back to you with the instructions on how to take the test.</template>
+  </category>
+  
+   <category>
+      <pattern>_ apply for * IMOT</pattern>
+      <template>
+         <srai>How to apply for the IMOT</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ apply for * the test</pattern>
+      <template>
+         <srai>How to apply for the IMOT</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>Apply for * the test *</pattern>
+      <template>
+         <srai>How to apply for the IMOT</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>Apply for * IMOT *</pattern>
+      <template>
+         <srai>How to apply for the IMOT</srai>
+      </template>
+   </category>
+  
+  <category>
+    <pattern>GRE</pattern>
+	<template><condition name="country">
+	<li value="Australian">Some exemptions may apply to GRE and GMAT if you are an Australian citizen or Permanent Resident for all programs except global. If you are in global program, The GMAT or GRE is a compulsory requirement. Required score: All programs (except global) GRE - 300  GMAT - 600 CMU Institutional Maths Online Test - 75%.</li>
+    <li value="international">For applicants taking GRE or GMAT Students must achieve an average minimum score of GRE 300 and GMAT 600. The test scores must be reported directly by the testing service. The Education Testing Service (ETS) administers the GRE (www.ets.org/gre). The Graduate Management Admissions Council (GMAC) administers the GMAT (www.mba.com). We recommend that applicants take the GMAT or GRE at least one month prior to the application deadline (please see Application Deadline information within each program's admissions requirements section). Please note there is no preference between the GRE or the GMAT for our Masters' programs.</li>
+	</condition>
+	</template>
+  </category>
+  
+  <category>
+      <pattern>_ GRE</pattern>
+      <template>
+         <srai>GRE</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>GRE *</pattern>
+      <template>
+         <srai>GRE</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ GRE *</pattern>
+      <template>
+         <srai>GRE</srai>
+      </template>
+   </category>
+  
+  <category>
+    <pattern>GMAT</pattern>
+    <template><srai>GRE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>_ GMAT</pattern>
+    <template><srai>GRE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>GMAT *</pattern>
+    <template><srai>GRE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>_ GMAT *</pattern>
+    <template><srai>GRE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>How to report the GRE or GMAT score to us</pattern>
+    <template>1. Order an official score report from the testing service to be sent directly to CMU Australia (see codes listed below). You may submit scores from up to 2 valid GRE or GMAT exam dates test dates. CMU Australia will use the highest score verified in each section if you have taken the exam more than one time. For every score you wish to include with your application, you must submit the official score report(s) via the testing service. We will not accept exam scores for test dates that are not listed on the application. 2. On the online application, enter the exam date for every exam you want to report to us. Enter as much additional information as possible, including registration number for the GRE or exam appointment number for the GMAT. Note that the only required information is the exam date. We will not verify scores for exam dates that are not listed on your application. 3. If available, please upload a copy of your score report(s) to the application (screen shot of online score report is fine. If you do not have a copy of your score report when you submit your online application, please email a copy of your score report to us (admissions@australia.cmu.edu) after you receive access to it (screen shot is fine). Uploading or sending a copy of your score report does not replace the requirement of ordering an official report from the testing service, but it may help us verify your scores more quickly. Please have your scores sent to the CMU Australia using the following codes. GMAT: MSIT 12-month: 69H-V8-75 MSIT-ITM 21-month: 69H-V8-75 MSIT-BIDA 21-month: 69H-V8-75 MSPPM 12-month: 69H-V8-77 MSPPM 21-month: 69H-V8-77	GRE: 7359</template>
+  </category>
+  
+  <category>
+    <pattern>_ Report * GRE score *</pattern>
+    <template><srai>How to report the GRE or GMAT score to us</srai></template>
+  </category>
+  
+  <category>
+    <pattern>_ Report * GRE score</pattern>
+    <template><srai>How to report the GRE or GMAT score to us</srai></template>
+  </category>
+  
+  <category>
+    <pattern>_ Report * GRE * score</pattern>
+    <template><srai>How to report the GRE or GMAT score to us</srai></template>
+  </category>
+  
+    <category>
+    <pattern>_ Report * GRE * score *</pattern>
+    <template><srai>How to report the GRE or GMAT score to us</srai></template>
+  </category>
+  
+    <category>
+    <pattern>_ Report * score * GRE *</pattern>
+    <template><srai>How to report the GRE or GMAT score to us</srai></template>
+  </category>
+  
+  <category>
+    <pattern>_ Report * score * GRE</pattern>
+    <template><srai>How to report the GRE or GMAT score to us</srai></template>
+  </category>
+  
+    <category>
+    <pattern>_ Report * GMAT score *</pattern>
+    <template><srai>How to report the GRE or GMAT score to us</srai></template>
+  </category>
+  
+  <category>
+    <pattern>_ Report * GMAT score</pattern>
+    <template><srai>How to report the GRE or GMAT score to us</srai></template>
+  </category>
+  
+  <category>
+    <pattern>_ Report * GMAT * score</pattern>
+    <template><srai>How to report the GRE or GMAT score to us</srai></template>
+  </category>
+  
+    <category>
+    <pattern>_ Report * GMAT * score *</pattern>
+    <template><srai>How to report the GRE or GMAT score to us</srai></template>
+  </category>
+  
+    <category>
+    <pattern>_ Report * score * GMAT *</pattern>
+    <template><srai>How to report the GRE or GMAT score to us</srai></template>
+  </category>
+  
+  <category>
+    <pattern>_ Report * score * GMAT</pattern>
+    <template><srai>How to report the GRE or GMAT score to us</srai></template>
+  </category>
+  
+  <category>
+    <pattern>English test</pattern>
+	<template><condition name="country">
+	<li value="Australian">Australian Permanent Residents who have not studied or worked in Australia for more than 5 years are required to submit scores from the IELTS or TOEFL. It is strongly recommended for applicants to take the TOEFL or IELTS at least one month prior to the application deadline.. If your test date is within one month of the application deadline, please be sure to email the scores to the office of admissions You may submit scores from up to 4 valid TOEFL or IELTS exam dates. CMU Australia will use the highest score verified in each section if you have taken the exam more than one time. For every score you wish to include with your application, you must report the exam date(s) and submit the official score report(s). We will not accept exam scores for test dates that are not listed on the application. TOEFL  1. iBT preferred 2. Scores must be submitted directly by Educational Testing Service (ETS).  3. The minimum TOEFL score is 22 on each section of the Internet-based test. IELTS 1. You may submit International English Language Testing System (IELTS) results in place of the TOEFL.  2. The "Academic" format of the IELTS is required.  3. Test scores must be submitted directly by IELTS.  4. The minimum IELTS score is 6.5 overall and 6.0 in each band. If you took either of these tests more than two years ago, you MUST take it again. The testing agency will not verify scores more than two years old. If your score is below the minimum on either exam, you should consider retaking the TOEFL/IELTS before applying.</li>
+    <li value="international">Applicants whose native language is not English are required to submit scores from IELTS or TOEFL.  Citizens of the following countries who have undertaken secondary and/or tertiary study in English in the national education system (or equivalent) and/or at a recognised, local university in any of the countries listed below:  Australia	Botswana	Canada	Ghana	Ireland Kenya	Lesotho	Malawi	Nambia	New Zealand Nigeria	South Africa	Swaziland	Tanzania	Uganda United Kingdom	United States	Zambia It is strongly recommended for applicants to take the TOEFL or IELTS at least one month prior to the application deadline.. If your test date is within one month of the application deadline, please be sure to email the scores to the office of admissions You may submit scores from up to 4 valid TOEFL or IELTS exam dates. CMU Australia will use the highest score verified in each section if you have taken the exam more than one time. For every score you wish to include with your application, you must report the exam date(s) and submit the official score report(s). We will not accept exam scores for test dates that are not listed on the application.TOEFL  1. iBT preferred2. Scores must be submitted directly by Educational Testing Service (ETS). CMUA Institution Code is 2318 3. The minimum TOEFL score is 22 on each section of the Internet-based test.  IELTS 1. You may submit International English Language Testing System (IELTS) results in place of the TOEFL.  2. The "Academic" format of the IELTS is required.  3. Test scores must be submitted directly by IELTS.  4. The minimum IELTS score is 6.5 overall and 6.0 in each band.  If you took either of these tests more than two years ago, you MUST take it again. The testing agency will not verify scores more than two years old. If your score is below the minimum on either exam, you should consider retaking the TOEFL/IELTS before applying.   Intensive English Tuition: Carnegie Mellon University in Australia can arrange English tuition at either the Intensive English Language Institute (IELI)  or at the South Australian College of English (SACE) in Adelaide for students who need to improve their English language skills to enter their chosen program (except global programs). For more information please contact our Admissions Office.</li>
+	</condition>
+	</template>
+  </category>
+  
+   <category>
+      <pattern>_ English test</pattern>
+      <template>
+         <srai>English test</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>English test *</pattern>
+      <template>
+         <srai>English test</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ English test *</pattern>
+      <template>
+         <srai>English test</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>IELTS</pattern>
+      <template>
+         <srai>English test</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>TOEFL</pattern>
+      <template>
+         <srai>English test</srai>
+      </template>
+   </category>
+  
+  <category>
+    <pattern>resume</pattern>
+	<template><condition name="country">
+	<li value="Australian">Applicants are required to submit a resume. Please submit a one or two page summary of your education skills, accomplishments, employment experience and volunteer experience. The resume must be current and include all part-time and full-time work experience, the dates of when the employment began and ended and a brief description of your responsibilities under the title of the position.Your resume should contain only true information and your own, original writing. If you include a quote or text written by any other person or published in any printed or online format, you must surround the copied text in quotation marks (") and indicate the original source of the text. Information reported on your resume is subject to verification. CMU Australia utilises several methods to identify plagiarised and falsified content in uploaded documents. Submission of false or plagiarised material as part of the application for admission may result in automatic denial of admission to any degree program.</li>
+    <li value="international">Applicants are required to submit a resume. Please submit a one or two page summary of your education skills, accomplishments, employment experience and volunteer experience. The resume must be current and include all part-time and full-time work experience, the dates of when the employment began and ended and a brief description of your responsibilities under the title of the position. Your resume should contain only true information and your own, original writing. If you include a quote or text written by any other person or published in any printed or online format, you must surround the copied text in quotation marks (") and indicate the original source of the text. Information reported on your resume is subject to verification. CMU Australia utilises several methods to identify plagiarised and falsified content in uploaded documents. Submission of false or plagiarised material as part of the application for admission may result in automatic denial of admission to any degree program.</li>
+	</condition>
+	</template>
+  </category>
+  
+   <category>
+      <pattern>_ resume</pattern>
+      <template>
+         <srai>resume</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>resume *</pattern>
+      <template>
+         <srai>resume</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ resume *</pattern>
+      <template>
+         <srai>resume</srai>
+      </template>
+   </category>
+  
+  <category>
+    <pattern>Statement of Purpose</pattern>
+	<template><condition name="country">
+	<li value="Australian">You are required to submit an essay (approximately 1,000 words) describing  your academic and professional background, your career goals, and how the program will help you achieve your goals.Your essay should contain only true information and your own, original writing.  Your essay should be typed on a computer, saved electronically, and uploaded to the application (please do not scan a printed essay). If you include a quote or text written by any other person or published in any printed or online format, you must surround the copied text in quotation marks (") and indicate the original source of the text. CMU Australia utilises several methods to identify plagiarised and falsified content in uploaded documents. Submission of false or plagiarised material as part of the application for admission may result in automatic denial of admission to any degree program.</li>
+    <li value="international">You are required to submit an essay (approximately 1,000 words) describing  your academic and professional background, your career goals, and how the program will help you achieve your goals. Your essay should contain only true information and your own, original writing.  Your essay should be typed on a computer, saved electronically, and uploaded to the application (please do not scan a printed essay). If you include a quote or text written by any other person or published in any printed or online format, you must surround the copied text in quotation marks (") and indicate the original source of the text. CMU Australia utilises several methods to identify plagiarised and falsified content in uploaded documents. Submission of false or plagiarised material as part of the application for admission may result in automatic denial of admission to any degree program.</li>
+	</condition>
+	</template>
+  </category>
+  
+   <category>
+      <pattern>_ Statement of Purpose</pattern>
+      <template>
+         <srai>Statement of Purpose</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>Statement of Purpose *</pattern>
+      <template>
+         <srai>Statement of Purpose</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ Statement of Purpose *</pattern>
+      <template>
+         <srai>Statement of Purpose</srai>
+      </template>
+   </category>
+   
+  <category>
+    <pattern>SoP</pattern>
+    <template><srai>Statement of Purpose</srai></template>
+  </category>
+  
+  <category>
+    <pattern>_ SoP</pattern>
+    <template><srai>Statement of Purpose</srai></template>
+  </category>
+  
+  <category>
+    <pattern>SoP *</pattern>
+    <template><srai>Statement of Purpose</srai></template>
+  </category>
+  
+  <category>
+    <pattern>_ SoP *</pattern>
+    <template><srai>Statement of Purpose</srai></template>
+  </category>
+  
+  <category>
+    <pattern>video interview</pattern>
+	<template><condition name="country">
+	<li value="Australian">You may complete a video interview with your application for admission. The video interview is optional, but it is strongly recommended for non-native speakers of English. We are unable to watch videos that come in any form other than a URL link. We will not accept videos sent by email or on DVD through the mail. We have the instruction of the video interview.</li>
+    <li value="international">You may complete a video interview with your application for admission. The video interview is optional, but it is strongly recommended for non-native speakers of English. We are happy to now offer an automated, online video interview to all applicants as a preferred alternative to submitting the optional video essay, particularly for non-native speakers of English. Please Note: After you begin the video interview, you will not be able to pause, cancel or re-record any of your answers. Please keep this in mind as you decide when and where to complete your video interview. The video (and audio) must be of you, the applicant (not a proxy).  Video Essay: If you decide to submit a video essay, please prepare a one-minute-long video that lets the admission committee know who you are, what you do well, and what you are looking to achieve in your graduate study at the CMU Australia. Please note that the video must be of the you, the applicant (not a proxy). If there is more than one person in the video, please clarify which person is you, the applicant. What you do or say is totally up to you as long as you provide the information requested. Upload the video to an easily accessible website (such as YouTube) and give us the URL and any required access codes in the appropriate fields within the application for admission. It is the applicant’s responsibility to correctly configure the security and access settings for the video. We recommend that the applicant use the strongest privacy settings available while still allowing access to the CMU Australia. If using YouTube, we suggest using the “Unlisted Video” setting so that only individuals who have the URL can view it. The applicant is also responsible for adhering to the terms and conditions of the website used to share the video essay. Following evaluation of the video essay, CMU Australia will retain a short excerpt or screen shot of the video as a part of the official student record. We are unable to watch videos that come in any form other than a URL link. We will not accept videos sent by email or on DVD through the mail. We have the instruction of the video interview.</li>
+	</condition>
+	</template>
+  </category>
+  
+   <category>
+      <pattern>_ video interview</pattern>
+      <template>
+         <srai>video interview</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>video interview *</pattern>
+      <template>
+         <srai>video interview</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ video interview *</pattern>
+      <template>
+         <srai>video interview</srai>
+      </template>
+   </category>
+  
+  <category>
+    <pattern>The instruction of the video interview</pattern>
+	<template>Instructions: Please click on the Check-In URL on the Essays and Uploads page of the online application to begin your interview. The link should appear within ten minutes of completing and saving the Degree Information page in your application. You will also receive an email invitation from Kira Talent with this Check-In URL. Please refresh your browser if the URL is not yet visible. The Check-In URL will remain available after you submit your online application. If you wish to include a video interview with your application, please complete the video interview no later than 7 days after you submit the online application.
+Here is what you can expect if you complete the video interview:
+1. You will first receive instructions and the system will help you ensure that your computer is set up correctly to begin the interview.
+2. You will then have a chance to answer two randomised practice questions an unlimited number of times to become comfortable with the system. Immediately after responding to each practice question, you will have a chance to watch your practice video. (Your practice videos will not be saved nor will they be sent to Carnegie Mellon University.)
+3. When you begin the actual interview, you will be asked three (3) randomised questions.
+4. After you see and hear the question, you will have 20 seconds to think about your answer.
+5. After the preparation time ends, your computer will automatically begin to record your answer.
+6. You will have 60 seconds to provide each answer. You will have only one chance to answer each question.
+7. You will not be able to pause the interview after it starts.
+8. You will not be able to re-record any answer after the interview begins.
+9. You may complete your video interview before or after you submit the online application, but you will only be able to complete the interview one time. If you want to ensure that your video interview is reviewed by the admissions committee, please be sure to complete your interview within 7 days after you submit the online application (at the latest).
+10. Just like a real, live interview, you will not be able to view your answer to any questions nor will you be able to view your completed interview.
+At the conclusion of your interview, you will see a very short Thank You video to confirm your video submission. You will also receive a confirmation email from Kira Talent after your video interview has been completed. Your video interview will automatically be added to your online application. If you have not submitted your online application at the time that you record your video interview, please remember to complete and submit your online application after recording your interview.</template>
+  </category>
+  
+    <category>
+    <pattern>_ instruction * video interview *</pattern>
+    <template><srai>The instruction of the video interview</srai></template>
+  </category>
+  
+   <category>
+    <pattern>instruction * video interview *</pattern>
+    <template><srai>The instruction of the video interview</srai></template>
+  </category>
+  
+   <category>
+    <pattern>_ instruction * video interview</pattern>
+    <template><srai>The instruction of the video interview</srai></template>
+  </category> 
+  
+  <category>
+    <pattern>recommendation</pattern>
+	<template><condition name="country">
+	<li value="Australian">>All applicants are required to have two (2) recommendation forms submitted on their behalf. Recommendations should be provided from employers, supervisors, professors, or others who are able to comment on your professional and educational goals and potential. At least one (1) of your recommenders should know you in a professional setting (full-time employment, internship, part-time employment, research, non-academic extracurricular activity, etc.) You may opt to have up to three (3) recommendations submitted in support of your application. Please note: recommendations from friends, family members or acquaintances, and other sources not able to evaluate applicants on an academic or professional basis, will not be accepted. Recommendations are submitted electronically through the online application system by your recommenders.   We do not accept recommendations submitted on paper. You must enter the names and contact information for each recommendation provider into the application system. Prior to requesting that your recommendation providers complete the recommendation online, be sure to check with them to ensure that you register them with the correct (preferably professional) email address. Please let your recommenders know that they may upload an electronic document or scanned copy of a paper-based recommendation using the online system rather than using the text box response fields (but they must upload their recommendation via the online system). Each recommender may be asked sereval questions.</li>
+    <li value="international">All applicants are required to have two (2) recommendation forms submitted on their behalf. Recommendations should be provided from employers, supervisors, professors, or others who are able to comment on your professional and educational goals and potential. At least one (1) of your recommenders should know you in a professional setting (full-time employment, internship, part-time employment, research, non-academic extracurricular activity, etc.) You may opt to have up to three (3) recommendations submitted in support of your application. Please note: recommendations from friends, family members or acquaintances, and other sources not able to evaluate applicants on an academic or professional basis, will not be accepted. Recommendations are submitted electronically through the online application system by your recommenders.   We do not accept recommendations submitted on paper. You must enter the names and contact information for each recommendation provider into the application system. Prior to requesting that your recommendation providers complete the recommendation online, be sure to check with them to ensure that you register them with the correct (preferably professional) email address. Please let your recommenders know that they may upload an electronic document or scanned copy of a paper-based recommendation using the online system rather than using the text box response fields (but they must upload their recommendation via the online system). Each recommender may be asked sereval questions.</li>
+	</condition>
+	</template>
+  </category>
+  
+   <category>
+      <pattern>_ recommendation</pattern>
+      <template>
+         <srai>recommendation</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>recommendation *</pattern>
+      <template>
+         <srai>recommendation</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ recommendation *</pattern>
+      <template>
+         <srai>recommendation</srai>
+      </template>
+   </category>
+   
+   <category>
+    <pattern>The questions that may be asked to the recommendors</pattern>
+	<template>1. How long and in what capacity have you known the applicant?  Please clearly indicate your position in relation to the applicant (i.e. - professor/instructor, direct supervisor, mentor, advisor, colleague, etc.).
+2. Do you believe the applicant gives her/his maximum effort and perseveres towards the stated goal when given a task, assignment or project?  Please provide details to support your answer.
+3. Discuss how the applicant works in a group (including interpersonal skills) and/or functions in a leadership role.
+4. Describe the applicant's ability to communicate in oral and written form.
+5. Provide an example where the applicant worked to solve a problem or handled a difficult situation in a professional manner.
+6. If you are able, please describe the applicant's understanding of, background in and commitment to this academic/professional field.
+7.Please share any additional information about the applicant’s personal qualities, maturity, academic or professional record which you believe would be helpful to the admissions committee.
+8. Please select your overall recommendation regarding this individual's application for admission for graduate study at Carnegie Mellon University. (Recommenders must select one of these responses: Strongly recommend, Recommend, Recommend with reservations, Do not recommend.)</template>
+  </category>
+  
+  <category>
+      <pattern>_ questions * recommendors *</pattern>
+      <template>
+         <srai>The questions that may be asked to the recommendors</srai>
+      </template>
+   </category>
+   
+     <category>
+      <pattern>questions * recommendors *</pattern>
+      <template>
+         <srai>The questions that may be asked to the recommendors</srai>
+      </template>
+   </category>
+   
+     <category>
+      <pattern>_ questions * recommendors</pattern>
+      <template>
+         <srai>The questions that may be asked to the recommendors</srai>
+      </template>
+   </category>
+   
+   <category>
+    <pattern>Who should I ask to provide recommendations for me?</pattern>
+	<template>Suggested Recommenders
+Work Experience	2 Recommender Types	
+0 years	Academic	Academic
+0-1 year	Academic	Academic or Professional
+1-3 years	Academic	Professional
+3+ years	Professional	Professional</template>
+  </category>
+  
+   <category>
+      <pattern>Who * provide reaommendation *</pattern>
+      <template>
+         <srai>Who should I ask to provide recommendations for me?</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>Who * provide reaommendation</pattern>
+      <template>
+         <srai>Who should I ask to provide recommendations for me?</srai>
+      </template>
+   </category>
+   
+     
+  <category>
+    <pattern>transcript</pattern>
+	<template><condition name="country">
+	<li value="Australian">We accept transcripts sent directly from the registrar of your institution or certified copies. Transcripts sent by your institution could be emailed electronically OR mailed to the Admissions Office in a sealed envelope (unopened) and signed across the seal by the registrar's office to : Admissions Office, Carnegie Mellon University in Australia, Torrens Building, 220 Victoria SquareAdelaide SA 5000, Australia, Tel: +61 8 8201 9900, Email: admissions@cmu.edu.au.</li>
+    <li value="international">We accept transcripts sent directly from the registrar of your institution or certified by our appointed agents.  Transcripts sent by your institution could be emailed electronically OR mailed to the Admissions Office in a sealed envelope (unopened) and signed across the seal by the registrar's office to :     Admissions Office, Carnegie Mellon University in Australia, Torrens Building, 220 Victoria Square, Adelaide SA 5000, Australia, Tel: +61 8 8201 9900, Email: admissions@cmu.edu.au You may be required to use an academic credential verification service if we are unable to verify the degree equivalency and/or authenticity of your qualifications.</li>
+	</condition>
+	</template>
+  </category>
+  
+   <category>
+      <pattern>_ transcript</pattern>
+      <template>
+         <srai>transcript</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>transcript *</pattern>
+      <template>
+         <srai>transcript</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ transcript *</pattern>
+      <template>
+         <srai>transcript</srai>
+      </template>
+   </category>
+     
+  <category>
+    <pattern>verification</pattern>
+	<template><condition name="country">
+	<li value="Australian">CMU Australia is committed to ensuring the integrity of our admissions process and the reputation of our educational programs. We also want to protect and enhance the value of the degrees that we confer. All enrolling students will be required to successfully complete a verification process of their admission application materials. The verification process will be completed by an outside, independent contractor hired by the Heinz College and Carnegie Mellon University. The purpose of this background check is to protect all stakeholders of the program (students, faculty, staff and alumni) from those who would falsify their backgrounds to gain an unfair advantage in the admissions process. We have made the decision to implement an independent verification process of all application materials for any master's student enrolling at CMU Australia. We believe that this verification will support our efforts to ensure integrity throughout the program. Upon admission, you will receive more details about this process. Students who have accepted the offer of admission will be contacted by the Office of Admissions regarding the verification process prior to the start of their first semester.</li>
+    <li value="international">CMU Australia is committed to ensuring the integrity of our admissions process and the reputation of our educational programs. We also want to protect and enhance the value of the degrees that we confer. All enrolling students will be required to successfully complete a verification process of their admission application materials. The verification process will be completed by an outside, independent contractor hired by the Heinz College and Carnegie Mellon University. The purpose of this background check is to protect all stakeholders of the program (students, faculty, staff and alumni) from those who would falsify their backgrounds to gain an unfair advantage in the admissions process. We have made the decision to implement an independent verification process of all application materials for any master's student enrolling at CMU Australia. We believe that this verification will support our efforts to ensure integrity throughout the program. Upon admission, you will receive more details about this process. Students who have accepted the offer of admission will be contacted by the Office of Admissions regarding the verification process prior to the start of their first semester.</li>
+	</condition>
+	</template>
+  </category>
+  
+   <category>
+      <pattern>_ verification</pattern>
+      <template>
+         <srai>verification</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>verification *</pattern>
+      <template>
+         <srai>verification</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ verification *</pattern>
+      <template>
+         <srai>verification</srai>
+      </template>
+   </category>
+   
+      <category>
+    <pattern>Other questions</pattern>
+    <template>You can ask me: 1. Does my bachelor degree have to be in IT Program 2. preparation I can do 3. the need to take IELTS or TOEFL</template>
+  </category>
+  
+  <category>
+      <pattern>_ Other questions</pattern>
+      <template>
+         <srai>Other questions</srai>
+      </template>
+   </category>
+  
+    <category>
+      <pattern>Other questions *</pattern>
+      <template>
+         <srai>Other questions</srai>
+      </template>
+   </category>
+  
+    <category>
+      <pattern>_ Other questions *</pattern>
+      <template>
+         <srai>Other questions</srai>
+      </template>
+   </category>
+   
+  <category>
+      <pattern>Other question</pattern>
+      <template>
+         <srai>Other questions</srai>
+      </template>
+   </category>
+  
+  <category>
+      <pattern>_ Other question</pattern>
+      <template>
+         <srai>Other questions</srai>
+      </template>
+   </category>
+  
+    <category>
+      <pattern>Other question *</pattern>
+      <template>
+         <srai>Other questions</srai>
+      </template>
+   </category>
+  
+    <category>
+      <pattern>_ Other question *</pattern>
+      <template>
+         <srai>Other questions</srai>
+      </template>
+   </category>
+   
+   <category>
+    <pattern>bachelor IT</pattern>
+    <template>Your bachelor degree doesn't have to be in IT, but you do need some programming experience or have successfully completed a suitable programming course. If you are unsure whether your experience meets the requirement, please contact us on admissions@australia.cmu.edu for further guidance.</template>
+  </category>
+  
+    <category>
+      <pattern>_ bachelor degree * IT *</pattern>
+      <template>
+         <srai>bachelor IT</srai>
+      </template>
+   </category>
+  
+  <category>
+      <pattern>_ bachelor degree * IT</pattern>
+      <template>
+         <srai>bachelor IT</srai>
+      </template>
+   </category>
+   
+     <category>
+      <pattern>bachelor degree * IT</pattern>
+      <template>
+         <srai>bachelor IT</srai>
+      </template>
+   </category>
+   
+    <category>
+      <pattern>bachelor degree * IT *</pattern>
+      <template>
+         <srai>bachelor IT</srai>
+      </template>
+   </category>
+   
+  <category>
+    <pattern>preparation</pattern>
+    <template>All Information Technology programs require programming experience in data structures and an object-oriented programming language such as C, C++ or Java. Students who do not have this experience must achieve a grade of B or higher in one of the Java courses </template>
+  </category>
+  
+  <category>
+    <pattern>_ preparation *</pattern>
+    <template>
+         <srai>preparation</srai>
+      </template>
+  </category>
+  
+    <category>
+    <pattern>preparation *</pattern>
+    <template>
+         <srai>preparation</srai>
+      </template>
+  </category>
+  
+    <category>
+    <pattern>_ preparation</pattern>
+    <template>
+         <srai>preparation</srai>
+      </template>
+  </category>
+  
+   <category>
+    <pattern>need IELTS</pattern>
+    <template>You may be exempted from this requirement if you’re a citizen of one of the following countries and you have undertaken secondary and/or tertiary study in English in the national education system (or equivalent) and/or at a recognised local university. Australia	Botswana	Canada	Ghana	Ireland Kenya	Lesotho	Malawi	Nambia	New Zealand Nigeria	South Africa	Swaziland	Tanzania	Uganda United Kingdom	United States	Zambia</template>
+  </category>
+  
+   <category>
+    <pattern>_ need * IELTS</pattern>
+    <template>
+         <srai>need IELTS</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>_ need * TOEFL</pattern>
+    <template><srai>need IELTS</srai></template>
+  </category>
+  
+   <category>
+    <pattern>need * IELTS</pattern>
+    <template>
+         <srai>need IELTS</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>need * TOEFL</pattern>
+    <template><srai>need IELTS</srai></template>
+  </category>
+  
+     <category>
+    <pattern>_ need * IELTS *</pattern>
+    <template>
+         <srai>need IELTS</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>_ need * TOEFL *</pattern>
+    <template><srai>need IELTS</srai></template>
+  </category>
+  
+       <category>
+    <pattern>need * IELTS *</pattern>
+    <template>
+         <srai>need IELTS</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>need * TOEFL *</pattern>
+    <template><srai>need IELTS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>apply</pattern>
+    <template>You can ask me: 1. next intake and deadline. 2. response time. 3. paper-based appplication. 4. apply more than one program. 5. technical issue</template>
+  </category>
+  
+  <category>
+      <pattern>_ apply</pattern>
+      <template>
+         <srai>apply</srai>
+      </template>
+   </category>
+  
+    <category>
+      <pattern>apply *</pattern>
+      <template>
+         <srai>apply</srai>
+      </template>
+   </category>
+  
+    <category>
+      <pattern>_ apply *</pattern>
+      <template>
+         <srai>apply</srai>
+      </template>
+   </category>
+   
+   <category>
+    <pattern>intake</pattern>
+    <template>All programs (except global) Deadline for August Intake: International Students - 30 April Australian Students - 15 July   Deadline for January (part-time) Intake: Australian Students - 15 November Global programs    Deadline for August Intake: International Students - 10 January Australian Students - 10 January</template>
+  </category>
+  
+  <category>
+    <pattern>_ intake</pattern>
+    <template>
+         <srai>intake</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>_ intake *</pattern>
+    <template>
+         <srai>intake</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>intake *</pattern>
+    <template>
+         <srai>intake</srai>
+    </template>
+  </category>
+
+  
+   <category>
+    <pattern>response</pattern>
+    <template>All programs (except global) If your application is complete and no further information is required, your application will be assessed in approximately 2 to 3 weeks. Global programs Your application will be assessed within 2 to 3 months after the application closing date.</template>
+  </category>
+  
+  <category>
+    <pattern>When * I * response</pattern>
+    <template>
+         <srai>response</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>When * I * responded</pattern>
+    <template>
+         <srai>response</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>When * you * respond</pattern>
+    <template>
+         <srai>response</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>_ response</pattern>
+    <template>
+         <srai>response</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>response *</pattern>
+    <template>
+         <srai>response</srai>
+    </template>
+  </category>
+  
+    <category>
+    <pattern>_ response *</pattern>
+    <template>
+         <srai>response</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>paper</pattern>
+    <template>All applications must be lodged online.</template>
+  </category>
+   
+   <category>
+      <pattern>_ paper-based application</pattern>
+      <template>
+         <srai>paper</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>paper-based application</pattern>
+      <template>
+         <srai>paper</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>paper-based application *</pattern>
+      <template>
+         <srai>paper</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ paper-based application *</pattern>
+      <template>
+         <srai>paper</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ application * paper</pattern>
+      <template>
+         <srai>paper</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ application * paper *</pattern>
+      <template>
+         <srai>paper</srai>
+      </template>
+   </category>
+   
+   <category>
+    <pattern>more</pattern>
+    <template>You can apply for more than one application. Note that in most cases you will need to complete a separate application for each program. Do ensure you examine each program’s entry requirements closely as they may differ. </template>
+  </category>
+  
+   <category>
+      <pattern>_ more * program</pattern>
+      <template>
+         <srai>more</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>more * program</pattern>
+      <template>
+         <srai>more</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>_ more * program *</pattern>
+      <template>
+         <srai>more</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>more * program *</pattern>
+      <template>
+         <srai>more</srai>
+      </template>
+   </category>
+   
+   <category>
+    <pattern>technical issue</pattern>
+    <template>Some common issues are: 1. Not uploading documents required 2. Not entering recommenders' details 3. Not filling out the GRE/GMAT or IELTS/TOEFL section Please note that you can't submit an application unless the above have been done.  If you are getting an error message, it is likely you have not completed one or more of the above sections.  If you have done all of the above and are still having issues, please contact us on admissions@australia.cmu.edu and we can further assist you.</template>
+  </category>
+  
+   <category>
+      <pattern>_ technical issue *</pattern>
+      <template>
+         <srai>technical issue</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>_ technical issue</pattern>
+      <template>
+         <srai>technical issue</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>technical issue *</pattern>
+      <template>
+         <srai>technical issue</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ technical problem *</pattern>
+      <template>
+         <srai>technical issue</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>technical problem *</pattern>
+      <template>
+         <srai>technical issue</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>_ technical problem</pattern>
+      <template>
+         <srai>technical issue</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>technical problem</pattern>
+      <template>
+         <srai>technical issue</srai>
+      </template>
+   </category>
+   
+   <category>
+    <pattern>program information</pattern>
+    <template>You can ask me: 1. information about CMUA program. 2. Program in CMUA and Pittsburgh. 3. Issue about leaving or terminating.</template>
+  </category>
+  
+  <category>
+      <pattern>_ program information</pattern>
+      <template>
+         <srai>program information</srai>
+      </template>
+   </category>
+  
+    <category>
+      <pattern>program information *</pattern>
+      <template>
+         <srai>program information</srai>
+      </template>
+   </category>
+  
+    <category>
+      <pattern>_ program information *</pattern>
+      <template>
+         <srai>program information</srai>
+      </template>
+   </category>
+   
+   <category>
+    <pattern>CMUA program</pattern>
+    <template>You can ask me: 1. Can international students take the Graduate Certificate or Advanced Diploma in BIDA? 2. Does CMUA offer a PhD program? 3. Will I gain credit for my prior studies? 4.Will there be evening classes?</template>
+  </category>
+  
+   <category>
+      <pattern>_ CMUA program *</pattern>
+      <template>
+         <srai>CMUA program</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>_ CMUA program</pattern>
+      <template>
+         <srai>CMUA program</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>CMUA program *</pattern>
+      <template>
+         <srai>CMUA program</srai>
+      </template>
+   </category>
+  
+  <category>
+    <pattern>_ international * BIDA *</pattern>
+    <template>Currently the Graduate Certificate and the Advanced Diploma in BIDA are only offered to Australian citizens and Permanent Residents.</template>
+  </category>
+   
+      <category>
+      <pattern>international * BIDA *</pattern>
+      <template>
+         <srai>_ international * BIDA *</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>_ international * BIDA</pattern>
+      <template>
+         <srai>_ international * BIDA *</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>international * BIDA</pattern>
+      <template>
+         <srai>_ international * BIDA *</srai>
+      </template>
+   </category>
+  
+  <category>
+    <pattern>CMUA * PhD</pattern>
+    <template>There are no PhD programs available at Carnegie Mellon University in Australia.  However, many of our graduates go on to PhD programs at leading universities around the world.</template>
+  </category>
+  
+    <category>
+      <pattern>_ CMUA * PhD *</pattern>
+      <template>
+         <srai>CMUA * PhD</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>CMUA * PhD *</pattern>
+      <template>
+         <srai>CMUA * PhD</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ CMUA * PhD</pattern>
+      <template>
+         <srai>CMUA * PhD</srai>
+      </template>
+   </category>
+  
+  <category>
+    <pattern>credit * prior studies</pattern>
+    <template>Carnegie Mellon University may grant credit or advanced standing or exemptions for subjects or qualifications completed at other tertiary institutions within Australia, USA or overseas.   Applications for credit or exemptions are usually assessed upon enrolment and in most cases you will need to provide detailed subject descriptions for an assessment to be undertaken.</template>
+  </category>
+   
+      <category>
+      <pattern>_ credit * prior studies</pattern>
+      <template>
+         <srai>credit * prior studies</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>credit * prior studies *</pattern>
+      <template>
+         <srai>credit * prior studies</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>_ credit * prior studies *</pattern>
+      <template>
+         <srai>credit * prior studies</srai>
+      </template>
+   </category>
+  
+   <category>
+    <pattern>evening classes</pattern>
+    <template>We do offer some courses in the evening, however this is not applicable to all courses. Please check the website:https://www.australia.cmu.edu/student-experience/current-students for more information</template>
+  </category>
+  
+   <category>
+      <pattern>_ evening classes *</pattern>
+      <template>
+         <srai>evening classes</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ evening classes</pattern>
+      <template>
+         <srai>evening classes</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>evening classes *</pattern>
+      <template>
+         <srai>evening classes</srai>
+      </template>
+   </category>
+  
+   <category>
+    <pattern>CMUA * Pittsburgh</pattern>
+    <template>You can ask me: 1. What is the difference between the programs in Adelaide and Pittsburgh? 2.Can I transfer from a CMUA program to a program in Pittsburgh? 3. Do I study the same curriculum taught by CMU faculty?</template>
+  </category>
+   
+      <category>
+      <pattern>_ CMUA * Pittsburgh</pattern>
+      <template>
+         <srai>CMUA * Pittsburgh</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>CMUA * Pittsburgh *</pattern>
+      <template>
+         <srai>CMUA * Pittsburgh</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>_ CMUA * Pittsburgh *</pattern>
+      <template>
+         <srai>CMUA * Pittsburgh</srai>
+      </template>
+   </category>
+   
+        <category>
+      <pattern>Pittsburgh * CMUA</pattern>
+      <template>
+         <srai>CMUA * Pittsburgh</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>_ Pittsburgh * CMUA</pattern>
+      <template>
+         <srai>CMUA * Pittsburgh</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>Pittsburgh * CMUA *</pattern>
+      <template>
+         <srai>CMUA * Pittsburgh</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>_ Pittsburgh * CMUA *</pattern>
+      <template>
+         <srai>CMUA * Pittsburgh</srai>
+      </template>
+   </category>
+  
+  <category>
+    <pattern>difference * Adelaide * Pittsburgh</pattern>
+    <template>Programs run in Adelaide and Pittsburgh deliver the same curriculum, allowing our students the opportunity to take courses from faculty across the global CMU network, to receive the same degree, and to enjoy the same alumni connections.  Global programs conclude with two semesters in Pittsburgh, while all other programs are completely conducted in Adelaide.</template>
+  </category>
+  
+   <category>
+      <pattern>_ difference * Adelaide * Pittsburgh *</pattern>
+      <template>
+         <srai>difference * Adelaide * Pittsburgh</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>difference * Adelaide * Pittsburgh *</pattern>
+      <template>
+         <srai>difference * Adelaide * Pittsburgh</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ difference * Adelaide * Pittsburgh</pattern>
+      <template>
+         <srai>difference * Adelaide * Pittsburgh</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ difference * Pittsburgh * Adelaide *</pattern>
+      <template>
+         <srai>difference * Adelaide * Pittsburgh</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>difference * Pittsburgh * Adelaide *</pattern>
+      <template>
+         <srai>difference * Adelaide * Pittsburgh</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ difference * Pittsburgh * Adelaide</pattern>
+      <template>
+         <srai>difference * Adelaide * Pittsburgh</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>difference * Pittsburgh * Adelaide</pattern>
+      <template>
+         <srai>difference * Adelaide * Pittsburgh</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ Adelaide * Pittsburgh * different *</pattern>
+      <template>
+         <srai>difference * Adelaide * Pittsburgh</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>Adelaide * Pittsburgh * different *</pattern>
+      <template>
+         <srai>difference * Adelaide * Pittsburgh</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ Adelaide * Pittsburgh * different</pattern>
+      <template>
+         <srai>difference * Adelaide * Pittsburgh</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>Adelaide * Pittsburgh * different</pattern>
+      <template>
+         <srai>difference * Adelaide * Pittsburgh</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ Pittsburgh * Adelaide * different *</pattern>
+      <template>
+         <srai>difference * Adelaide * Pittsburgh</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>Pittsburgh * Adelaide * different *</pattern>
+      <template>
+         <srai>difference * Adelaide * Pittsburgh</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ Pittsburgh * Adelaide * different</pattern>
+      <template>
+         <srai>difference * Adelaide * Pittsburgh</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>Pittsburgh * Adelaide * different</pattern>
+      <template>
+         <srai>difference * Adelaide * Pittsburgh</srai>
+      </template>
+   </category>
+  
+  <category>
+    <pattern>transfer * CMUA * Pittsburgh</pattern>
+    <template>Students are unable to transfer from the Australian programs to the global programs or another program in Pittsburgh.</template>
+  </category>
+  
+  
+     <category>
+      <pattern>_ transfer * CMUA * Pittsburgh *</pattern>
+      <template>
+         <srai>transfer * CMUA * Pittsburgh</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>_ transfer * CMUA * Pittsburgh</pattern>
+      <template>
+         <srai>transfer * CMUA * Pittsburgh</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>transfer * CMUA * Pittsburgh *</pattern>
+      <template>
+         <srai>transfer * CMUA * Pittsburgh</srai>
+      </template>
+   </category>
+   
+        <category>
+      <pattern>_ transfer * Adelaide * Pittsburgh *</pattern>
+      <template>
+         <srai>transfer * CMUA * Pittsburgh</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>_ transfer *Adelaide * Pittsburgh</pattern>
+      <template>
+         <srai>transfer * CMUA * Pittsburgh</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>transfer * Adelaide * Pittsburgh *</pattern>
+      <template>
+         <srai>transfer * CMUA * Pittsburgh</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>transfer * Adelaide * Pittsburgh</pattern>
+      <template>
+         <srai>transfer * CMUA * Pittsburgh</srai>
+      </template>
+   </category>
+  
+  <category>
+    <pattern>same curriculum</pattern>
+    <template>Students study the same world-class CMU curriculum and are taught by faculty employed by CMU.</template>
+  </category>
+  
+   <category>
+      <pattern>_ same course *</pattern>
+      <template>
+         <srai>same curriculum</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ same curriculum *</pattern>
+      <template>
+         <srai>same curriculum</srai>
+      </template>
+   </category>
+   
+    <category>
+      <pattern>_ same course</pattern>
+      <template>
+         <srai>same curriculum</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ same curriculum</pattern>
+      <template>
+         <srai>same curriculum</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ curriculum * same</pattern>
+      <template>
+         <srai>same curriculum</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ course * same</pattern>
+      <template>
+         <srai>same curriculum</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>_ curriculum * same *</pattern>
+      <template>
+         <srai>same curriculum</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ course * same *</pattern>
+      <template>
+         <srai>same curriculum</srai>
+      </template>
+   </category>
+  
+  <category>
+    <pattern>issue * leaving</pattern>
+    <template>You can ask me: 1. Can I take leave or withdraw from my study? 2.Can the university suspend or terminate my enrollment?</template>
+  </category>
+   
+      <category>
+      <pattern>issue * terminating</pattern>
+      <template>
+         <srai>issue * leaving</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>_ issue * leaving</pattern>
+      <template>
+         <srai>issue * leaving</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>_ issue * terminating</pattern>
+      <template>
+         <srai>issue * leaving</srai>
+      </template>
+   </category>
+         <category>
+      <pattern>issue * leaving *</pattern>
+      <template>
+         <srai>issue * leaving</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>issue * terminating *</pattern>
+      <template>
+         <srai>issue * leaving</srai>
+      </template>
+   </category>
+         <category>
+      <pattern>_ issue * leaving *</pattern>
+      <template>
+         <srai>issue * leaving</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>_ issue * terminating *</pattern>
+      <template>
+         <srai>issue * leaving</srai>
+      </template>
+   </category>
+   
+    <category>
+      <pattern>leaving issue *</pattern>
+      <template>
+         <srai>issue * leaving</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>terminating issue *</pattern>
+      <template>
+         <srai>issue * leaving</srai>
+      </template>
+   </category>
+   
+       <category>
+      <pattern>leaving issue</pattern>
+      <template>
+         <srai>issue * leaving</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>terminating issue</pattern>
+      <template>
+         <srai>issue * leaving</srai>
+      </template>
+   </category>
+   
+       <category>
+      <pattern>_ leaving issue</pattern>
+      <template>
+         <srai>issue * leaving</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>_ terminating issue</pattern>
+      <template>
+         <srai>issue * leaving</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>_ leaving issue *</pattern>
+      <template>
+         <srai>issue * leaving</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>_ terminating issue *</pattern>
+      <template>
+         <srai>issue * leaving</srai>
+      </template>
+   </category>
+  
+  <category>
+    <pattern>leave * study</pattern>
+    <template>If you wish to take leave or withdraw from your course at the University, you should contact the Senior Director of Academic and Institutional Development to discuss your circumstances as soon as possible. To withdraw from your course, you will need to formally notify the University by contacting the Admissions office. </template>
+  </category>
+  
+   <category>
+      <pattern>_ leave * study *</pattern>
+      <template>
+         <srai>leave * study</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>leave * study *</pattern>
+      <template>
+         <srai>leave * study</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ leave * study</pattern>
+      <template>
+         <srai>leave * study</srai>
+      </template>
+   </category>
+   
+    <category>
+      <pattern>_ withdraw * study *</pattern>
+      <template>
+         <srai>leave * study</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>withdraw * study *</pattern>
+      <template>
+         <srai>leave * study</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ withdraw * study</pattern>
+      <template>
+         <srai>leave * study</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>withdraw * study</pattern>
+      <template>
+         <srai>leave * study</srai>
+      </template>
+   </category>
+  
+  <category>
+    <pattern>university suspend *</pattern>
+    <template>They can suspend or terminate your program, and for International students, The University must notify the Australian Government of student visa holders whose enrollment has been suspended or terminated, The government may cancel your student visa if your enrollment is terminated as a result of misconduct or unsatisfactory academic progress, Students who no longer study in Australia must depart Australia or apply for another visa within 28 days of the enrollment cancellation date or before their visa expires, Contact the Australian Government for further information</template>
+  </category>
+  
+   <category>
+      <pattern>_ university suspend *</pattern>
+      <template>
+         <srai>university suspend *</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ university suspend</pattern>
+      <template>
+         <srai>university suspend *</srai>
+      </template>
+   </category>
+   
+    <category>
+      <pattern>_ university terminate *</pattern>
+      <template>
+         <srai>university suspend *</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>university terminate *</pattern>
+      <template>
+         <srai>university suspend *</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ university terminate</pattern>
+      <template>
+         <srai>university suspend *</srai>
+      </template>
+   </category>
+  
+  <category>
+    <pattern>reason</pattern>
+	<that>Yes, they can, And for International students, The University must notify the Australian Government of student visa holders whose enrollment has been suspended or terminated, The government may cancel your student visa if your enrollment is terminated as a result of misconduct or unsatisfactory academic progress, Students who no longer study in Australia must depart Australia or apply for another visa within 28 days of the enrollment cancellation date or before their visa expires, Contact the Australian Government for further information</that>
+    <template>The University may suspend or terminate your enrollment due to unpaid fees, failing to re-enroll, general or academic misconduct, or unsatisfactory academic progress in accordance with University Policies and Procedures. </template>
+  </category>
+   
+   <category>
+      <pattern>_ reason</pattern>
+	  <that>Yes, they can, And for International students, The University must notify the Australian Government of student visa holders whose enrollment has been suspended or terminated, The government may cancel your student visa if your enrollment is terminated as a result of misconduct or unsatisfactory academic progress, Students who no longer study in Australia must depart Australia or apply for another visa within 28 days of the enrollment cancellation date or before their visa expires, Contact the Australian Government for further information</that>
+      <template>
+         <srai>reason</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>reason *</pattern>
+	  <that>Yes, they can, And for International students, The University must notify the Australian Government of student visa holders whose enrollment has been suspended or terminated, The government may cancel your student visa if your enrollment is terminated as a result of misconduct or unsatisfactory academic progress, Students who no longer study in Australia must depart Australia or apply for another visa within 28 days of the enrollment cancellation date or before their visa expires, Contact the Australian Government for further information</that>
+      <template>
+         <srai>reason</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ reason *</pattern>
+	  <that>Yes, they can, And for International students, The University must notify the Australian Government of student visa holders whose enrollment has been suspended or terminated, The government may cancel your student visa if your enrollment is terminated as a result of misconduct or unsatisfactory academic progress, Students who no longer study in Australia must depart Australia or apply for another visa within 28 days of the enrollment cancellation date or before their visa expires, Contact the Australian Government for further information</that>
+      <template>
+         <srai>reason</srai>
+      </template>
+   </category>
+   
+   <category>
+    <pattern>Thank you</pattern>
+    <template><random>
+            <li>It's my pleasure. Hope everything goes well with your application!</li>
+            <li>That's alright. If you have any other questions, you can ask me for more :)</li>
+			<li>You're welcome. Have a nice day :)</li>
+         </random></template>
+  </category>
+  
+     <category>
+      <pattern>_ Thank you</pattern>
+      <template>
+         <srai>Thank you</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>Thank you *</pattern>
+      <template>
+         <srai>Thank you</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>_ Thank you *</pattern>
+      <template>
+         <srai>Thank you</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>_ Thanks</pattern>
+      <template>
+         <srai>Thank you</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>Thanks *</pattern>
+      <template>
+         <srai>Thank you</srai>
+      </template>
+   </category>
+   
+      <category>
+      <pattern>_ Thanks *</pattern>
+      <template>
+         <srai>Thank you</srai>
+      </template>
+   </category>
+   
+   <category>
+      <pattern>Thanks</pattern>
+      <template>
+         <srai>Thank you</srai>
+      </template>
+   </category>
+   
+</aiml>

@@ -1,0 +1,793 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml>
+
+<category>
+      <pattern>Work and study</pattern>
+      <template>You may ask me questions about career service, on-campus work, visa and work hours</template>
+   </category>
+
+<category>
+       <pattern>_ Work and study</pattern>
+       <template>
+          <srai>Work and study</srai>
+        </template>
+   </category>
+   
+   
+<category>
+       <pattern>_ Work and study *</pattern>
+       <template>
+          <srai>Work and study</srai>
+        </template>
+   </category>
+   
+   
+<category>
+       <pattern>Work and study *</pattern>
+       <template>
+          <srai>Work and study</srai>
+        </template>
+   </category>
+   
+   <category>
+      <pattern>visa</pattern>
+      <template>You may ask me questions about student visa or post study work visa</template>
+   </category>
+   
+   <category>
+      <pattern>* career service *</pattern>
+      <template>Carnegie Mellon University in Australia provides its students with careers counselling and professional coaching services to assist students and alumni to progress their careers. Some of the services include:\n    Individual Counselling\n    Workshops - Resume writing, interview skills, negotiating job offers, business etiquette and case interviews\n    Employer Networking\n    Career Services Team - support students in finding internships</template>
+   </category>
+   
+   <category>
+      <pattern>on campus work</pattern>
+      <template>On-campus work opportunities including library and teaching assistants are available.</template>  
+   </category>
+   
+   <category>
+      <pattern>* student visa *</pattern>
+      <template>Yes, you can. Currently you are allowed to work 20 hours per week. This Australian Government website provides more details. http://www.border.gov.au/Trav/Stud/More/Work-conditions-for-Student-visa-holders</template>  
+   </category>
+   
+   <category>
+      <pattern>how many hours * work *</pattern>
+      <template>Currently you are allowed to work 20 hours per week, This Australian Government website provides more details. http://www.border.gov.au/Trav/Stud/More/Work-conditions-for-Student-visa-holders</template>  
+   </category>  
+
+   <category>
+      <pattern>post study work visa</pattern>
+      <template>Are you enrolled in the 21 month programs exclude global tracks, YES or NO</template>  
+   </category> 
+
+   <category>
+      <pattern>YES</pattern>
+      <that>Are you enrolled in the 21 month programs exclude global tracks, YES or NO</that>
+      <template>So, a great news for you! You are eligible to apply for the 2-year post study work visa in Australia</template>
+   </category>
+   
+   <category>
+      <pattern>No</pattern>
+      <that>Are you enrolled in the 21 month programs exclude global tracks, YES or NO</that>
+      <template>Sorry, I am afraid you cannot apply for the post study work visa.</template>
+   </category>
+   
+   <category>
+      <pattern>* work * United States * after graduation</pattern>
+      <template>If you're an Australian citizen, you're eligible to apply for E-3 visa to work in the United States.  For more information, please visit : https://www.uscis.gov/working-united-states/temporary-workers/e-3-certain-specialty-occupation-professionals-australia</template>  
+   </category>   
+   
+   <category>
+       <pattern>* career service</pattern>
+       <template>
+          <srai>* career service *</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>career service</pattern>
+       <template>
+          <srai>* career service *</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* career services</pattern>
+       <template>
+          <srai>* career service *</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>career services</pattern>
+       <template>
+          <srai>* career service *</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* career services *</pattern>
+       <template>
+          <srai>* career service *</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>_ on campus work</pattern>
+       <template>
+          <srai>on campus work</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>_ on campus work *</pattern>
+       <template>
+          <srai>on-campus work</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>_ on campus works</pattern>
+       <template>
+          <srai>on campus work</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>on campus works</pattern>
+       <template>
+          <srai>on campus work</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>_ on campus works *</pattern>
+       <template>
+          <srai>on campus work</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>_ student visa</pattern>
+       <template>
+          <srai>* student visa *</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>student visa</pattern>
+       <template>
+          <srai>* student visa *</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * international student *</pattern>
+       <template>
+          <srai>* student visa *</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * international student</pattern>
+       <template>
+          <srai>* student visa *</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* international student work *</pattern>
+       <template>
+          <srai>* student visa *</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* international students work *</pattern>
+       <template>
+          <srai>* student visa *</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>_ post study work visa</pattern>
+       <template>
+          <srai>post study work visa</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>post study work visa *</pattern>
+       <template>
+          <srai>post study work visa</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>_ post study work visa *</pattern>
+       <template>
+          <srai>post study work visa</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>after graduation * work * United States</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* graduate * work * United States</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * United States * graduate *</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * United States * graduate</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* finish * program * work * United States</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * United States * finish * program *</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * United States * finish * program</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* finish program * work * United States</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * United States * finish program *</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * United States * finish program</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* complete * program * work * United States</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * United States * complete * program *</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * United States * complete * program</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* complete program * work * United States</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * United States * complete program *</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * United States * complete program</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* program * completed * work * United States</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * United States * program * completed </pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>after graduation * work * US</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* graduate * work * US</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * US * graduate *</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * US * graduate</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* finish * program * work * US</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * US * finish * program *</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * US * finish * program</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* finish program * work * US</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * US * finish program *</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * US * finish program</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* complete * program * work * US</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * US * complete * program *</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * US * complete * program</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* complete program * work * US</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * US * complete program *</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * US * complete program</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* program * completed * work * US</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * US * program * completed </pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * US * after graduation</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>after graduation * work * USA</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* graduate * work * USA</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * USA * graduate *</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * USA * graduate</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* finish * program * work * USA</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * USA * finish * program *</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * USA * finish * program</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* finish program * work * USA</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * USA * finish program *</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * USA * finish program</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* complete * program * work * USA</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * USA * complete * program *</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * USA * complete * program</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* complete program * work * USA</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * USA * complete program *</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * USA * complete program</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* program * completed * work * USA</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * USA * program * completed </pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * USA * after graduation</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>after graduation * work * U.S.</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* graduate * work * U.S.</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * U.S. * graduate *</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * U.S. * graduate</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* finish * program * work * U.S.</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * U.S. * finish * program *</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * U.S. * finish * program</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* finish program * work * U.S.</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * U.S. * finish program *</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * U.S. * finish program</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* complete * program * work * U.S.</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * U.S. * complete * program *</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * U.S. * complete * program</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* complete program * work * U.S.</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * U.S. * complete program *</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * U.S. * complete program</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* program * completed * work * U.S.</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * U.S. * program * completed </pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* work * U.S. * after graduation</pattern>
+       <template>
+          <srai>* work * United States * after graduation</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* how many hours * work *</pattern>
+       <template>
+          <srai>how many hours * work *</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>how many hours * work</pattern>
+       <template>
+          <srai>how many hours * work *</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* how many hour * work *</pattern>
+       <template>
+          <srai>how many hours * work *</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>how many hour * work</pattern>
+       <template>
+          <srai>how many hours * work *</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>how many hour * work *</pattern>
+       <template>
+          <srai>how many hours * work *</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>* how long * work *</pattern>
+       <template>
+          <srai>how many hours * work *</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>how long * work</pattern>
+       <template>
+          <srai>how many hours * work *</srai>
+        </template>
+   </category>
+   
+   <category>
+       <pattern>how long * work *</pattern>
+       <template>
+          <srai>how many hours * work *</srai>
+        </template>
+   </category>
+   
+</aiml>

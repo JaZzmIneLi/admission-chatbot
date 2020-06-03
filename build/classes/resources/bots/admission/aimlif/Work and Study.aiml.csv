@@ -1,0 +1,115 @@
+0,WORK AND STUDY,*,*,You may ask me questions about career service#Comma on-campus work#Comma visa and work hours,Work and Study.aiml
+0,_ WORK AND STUDY,*,*,<srai>Work and study</srai>,Work and Study.aiml
+0,_ WORK AND STUDY *,*,*,<srai>Work and study</srai>,Work and Study.aiml
+0,WORK AND STUDY *,*,*,<srai>Work and study</srai>,Work and Study.aiml
+0,VISA,*,*,You may ask me questions about student visa or post study work visa,Work and Study.aiml
+0,* CAREER SERVICE *,*,*,Carnegie Mellon University in Australia provides its students with careers counselling and professional coaching services to assist students and alumni to progress their careers. Some of the services include:\n    Individual Counselling\n    Workshops - Resume writing#Comma interview skills#Comma negotiating job offers#Comma business etiquette and case interviews\n    Employer Networking\n    Career Services Team - support students in finding internships,Work and Study.aiml
+0,ON CAMPUS WORK,*,*,On-campus work opportunities including library and teaching assistants are available.,Work and Study.aiml
+0,* STUDENT VISA *,*,*,Yes#Comma you can. Currently you are allowed to work 20 hours per week. This Australian Government website provides more details. http://www.border.gov.au/Trav/Stud/More/Work-conditions-for-Student-visa-holders,Work and Study.aiml
+0,HOW MANY HOURS * WORK *,*,*,Currently you are allowed to work 20 hours per week#Comma This Australian Government website provides more details. http://www.border.gov.au/Trav/Stud/More/Work-conditions-for-Student-visa-holders,Work and Study.aiml
+0,POST STUDY WORK VISA,*,*,Are you enrolled in the 21 month programs exclude global tracks#Comma YES or NO,Work and Study.aiml
+0,YES,ARE YOU ENROLLED IN THE 21 MONTH PROGRAMS EXCLUDE GLOBAL TRACKS, YES OR NO,*,So#Comma a great news for you! You are eligible to apply for the 2-year post study work visa in Australia,Work and Study.aiml
+0,NO,ARE YOU ENROLLED IN THE 21 MONTH PROGRAMS EXCLUDE GLOBAL TRACKS, YES OR NO,*,Sorry#Comma I am afraid you cannot apply for the post study work visa.,Work and Study.aiml
+0,* WORK * UNITED STATES * AFTER GRADUATION,*,*,If you're an Australian citizen#Comma you're eligible to apply for E-3 visa to work in the United States.  For more information#Comma please visit : https://www.uscis.gov/working-united-states/temporary-workers/e-3-certain-specialty-occupation-professionals-australia,Work and Study.aiml
+0,* CAREER SERVICE,*,*,<srai>* career service *</srai>,Work and Study.aiml
+0,CAREER SERVICE,*,*,<srai>* career service *</srai>,Work and Study.aiml
+0,* CAREER SERVICES,*,*,<srai>* career service *</srai>,Work and Study.aiml
+0,CAREER SERVICES,*,*,<srai>* career service *</srai>,Work and Study.aiml
+0,* CAREER SERVICES *,*,*,<srai>* career service *</srai>,Work and Study.aiml
+0,_ ON CAMPUS WORK,*,*,<srai>on campus work</srai>,Work and Study.aiml
+0,_ ON CAMPUS WORK *,*,*,<srai>on-campus work</srai>,Work and Study.aiml
+0,_ ON CAMPUS WORKS,*,*,<srai>on campus work</srai>,Work and Study.aiml
+0,ON CAMPUS WORKS,*,*,<srai>on campus work</srai>,Work and Study.aiml
+0,_ ON CAMPUS WORKS *,*,*,<srai>on campus work</srai>,Work and Study.aiml
+0,_ STUDENT VISA,*,*,<srai>* student visa *</srai>,Work and Study.aiml
+0,STUDENT VISA,*,*,<srai>* student visa *</srai>,Work and Study.aiml
+0,* WORK * INTERNATIONAL STUDENT *,*,*,<srai>* student visa *</srai>,Work and Study.aiml
+0,* WORK * INTERNATIONAL STUDENT,*,*,<srai>* student visa *</srai>,Work and Study.aiml
+0,* INTERNATIONAL STUDENT WORK *,*,*,<srai>* student visa *</srai>,Work and Study.aiml
+0,* INTERNATIONAL STUDENTS WORK *,*,*,<srai>* student visa *</srai>,Work and Study.aiml
+0,_ POST STUDY WORK VISA,*,*,<srai>post study work visa</srai>,Work and Study.aiml
+0,POST STUDY WORK VISA *,*,*,<srai>post study work visa</srai>,Work and Study.aiml
+0,_ POST STUDY WORK VISA *,*,*,<srai>post study work visa</srai>,Work and Study.aiml
+0,AFTER GRADUATION * WORK * UNITED STATES,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* GRADUATE * WORK * UNITED STATES,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * UNITED STATES * GRADUATE *,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * UNITED STATES * GRADUATE,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* FINISH * PROGRAM * WORK * UNITED STATES,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * UNITED STATES * FINISH * PROGRAM *,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * UNITED STATES * FINISH * PROGRAM,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* FINISH PROGRAM * WORK * UNITED STATES,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * UNITED STATES * FINISH PROGRAM *,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * UNITED STATES * FINISH PROGRAM,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* COMPLETE * PROGRAM * WORK * UNITED STATES,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * UNITED STATES * COMPLETE * PROGRAM *,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * UNITED STATES * COMPLETE * PROGRAM,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* COMPLETE PROGRAM * WORK * UNITED STATES,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * UNITED STATES * COMPLETE PROGRAM *,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * UNITED STATES * COMPLETE PROGRAM,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* PROGRAM * COMPLETED * WORK * UNITED STATES,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * UNITED STATES * PROGRAM * COMPLETED,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,AFTER GRADUATION * WORK * US,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* GRADUATE * WORK * US,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * US * GRADUATE *,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * US * GRADUATE,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* FINISH * PROGRAM * WORK * US,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * US * FINISH * PROGRAM *,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * US * FINISH * PROGRAM,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* FINISH PROGRAM * WORK * US,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * US * FINISH PROGRAM *,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * US * FINISH PROGRAM,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* COMPLETE * PROGRAM * WORK * US,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * US * COMPLETE * PROGRAM *,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * US * COMPLETE * PROGRAM,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* COMPLETE PROGRAM * WORK * US,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * US * COMPLETE PROGRAM *,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * US * COMPLETE PROGRAM,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* PROGRAM * COMPLETED * WORK * US,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * US * PROGRAM * COMPLETED,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * US * AFTER GRADUATION,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,AFTER GRADUATION * WORK * USA,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* GRADUATE * WORK * USA,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * USA * GRADUATE *,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * USA * GRADUATE,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* FINISH * PROGRAM * WORK * USA,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * USA * FINISH * PROGRAM *,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * USA * FINISH * PROGRAM,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* FINISH PROGRAM * WORK * USA,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * USA * FINISH PROGRAM *,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * USA * FINISH PROGRAM,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* COMPLETE * PROGRAM * WORK * USA,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * USA * COMPLETE * PROGRAM *,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * USA * COMPLETE * PROGRAM,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* COMPLETE PROGRAM * WORK * USA,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * USA * COMPLETE PROGRAM *,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * USA * COMPLETE PROGRAM,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* PROGRAM * COMPLETED * WORK * USA,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * USA * PROGRAM * COMPLETED,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * USA * AFTER GRADUATION,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,AFTER GRADUATION * WORK * U.S.,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* GRADUATE * WORK * U.S.,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * U.S. * GRADUATE *,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * U.S. * GRADUATE,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* FINISH * PROGRAM * WORK * U.S.,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * U.S. * FINISH * PROGRAM *,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * U.S. * FINISH * PROGRAM,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* FINISH PROGRAM * WORK * U.S.,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * U.S. * FINISH PROGRAM *,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * U.S. * FINISH PROGRAM,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* COMPLETE * PROGRAM * WORK * U.S.,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * U.S. * COMPLETE * PROGRAM *,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * U.S. * COMPLETE * PROGRAM,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* COMPLETE PROGRAM * WORK * U.S.,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * U.S. * COMPLETE PROGRAM *,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * U.S. * COMPLETE PROGRAM,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* PROGRAM * COMPLETED * WORK * U.S.,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * U.S. * PROGRAM * COMPLETED,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* WORK * U.S. * AFTER GRADUATION,*,*,<srai>* work * United States * after graduation</srai>,Work and Study.aiml
+0,* HOW MANY HOURS * WORK *,*,*,<srai>how many hours * work *</srai>,Work and Study.aiml
+0,HOW MANY HOURS * WORK,*,*,<srai>how many hours * work *</srai>,Work and Study.aiml
+0,* HOW MANY HOUR * WORK *,*,*,<srai>how many hours * work *</srai>,Work and Study.aiml
+0,HOW MANY HOUR * WORK,*,*,<srai>how many hours * work *</srai>,Work and Study.aiml
+0,HOW MANY HOUR * WORK *,*,*,<srai>how many hours * work *</srai>,Work and Study.aiml
+0,* HOW LONG * WORK *,*,*,<srai>how many hours * work *</srai>,Work and Study.aiml
+0,HOW LONG * WORK,*,*,<srai>how many hours * work *</srai>,Work and Study.aiml
+0,HOW LONG * WORK *,*,*,<srai>how many hours * work *</srai>,Work and Study.aiml

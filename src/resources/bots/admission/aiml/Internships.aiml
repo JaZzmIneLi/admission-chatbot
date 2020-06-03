@@ -1,0 +1,247 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml>
+   <category>
+      <pattern>Internship</pattern>
+      <template>Wow, good question. Internship is a compulsory course for CMUA students. I guess you want to ask me about assistance for internship. Or places you can do internship?</template>  
+   </category>
+   
+      <category>
+         <pattern>internship internationally</pattern>
+         <template>Yes, you may choose to take your internship in Australia or globally (except the United States).</template>
+      </category>
+      
+      <category>
+         <pattern>assistance * internship</pattern>
+         <template>Students are encouraged to intern in an organisation that corresponds to your individual area of interest and career goals. You may choose to find an internship yourself or seek the support from our Career Services.</template>
+      </category>
+	  
+	  <category>
+         <pattern>Where * internship</pattern>
+         <template>You can find a list of our past internship placements on our Internships page: https://cmu-dev.australia.cmu.edu/student-experience/internships </template>
+      </category>
+	  
+	  <category>
+         <pattern>Where * internship *</pattern>
+         <template>
+            <srai>Where * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>Where * internships *</pattern>
+         <template>
+            <srai>Where * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>* country * internship</pattern>
+         <template>
+            <srai>Where * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>* country * internship *</pattern>
+         <template>
+            <srai>Where * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>* country * internships</pattern>
+         <template>
+            <srai>Where * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>* country * internships *</pattern>
+         <template>
+            <srai>Where * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>* countries * internship</pattern>
+         <template>
+            <srai>Where * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>* countries * internship *</pattern>
+         <template>
+            <srai>Where * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>* countries * internships</pattern>
+         <template>
+            <srai>Where * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>* countries * internships *</pattern>
+         <template>
+            <srai>Where * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>* place * internship</pattern>
+         <template>
+            <srai>Where * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>* place * internship *</pattern>
+         <template>
+            <srai>Where * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>_ place * internships</pattern>
+         <template>
+            <srai>Where * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>place * internships</pattern>
+         <template>
+            <srai>Where * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>places * internship</pattern>
+         <template>
+            <srai>Where * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>places * internship</pattern>
+         <template>
+            <srai>Where * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>places * internships</pattern>
+         <template>
+            <srai>Where * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>places * internships</pattern>
+         <template>
+            <srai>Where * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>help * internship</pattern>
+         <template>
+            <srai>assistance * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>_ help * internship</pattern>
+         <template>
+            <srai>assistance * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>_ assist * internship</pattern>
+         <template>
+            <srai>assistance * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>_ assist * internship *</pattern>
+         <template>
+            <srai>assistance * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>_ assistance * internship</pattern>
+         <template>
+            <srai>assistance * internship</srai>
+        </template>
+      </category>
+
+	  <category>
+         <pattern>_ help * internships</pattern>
+         <template>
+            <srai>assistance * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>_ help * internships *</pattern>
+         <template>
+            <srai>assistance * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>_ assist * internships</pattern>
+         <template>
+            <srai>assistance * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>_ assist * internships *</pattern>
+         <template>
+            <srai>assistance * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>_ assistance * internships</pattern>
+         <template>
+            <srai>assistance * internship</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>_ internship internationally</pattern>
+         <template>
+            <srai>internship internationally</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>_ internships internationally</pattern>
+         <template>
+            <srai>internship internationally</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>_ internship globally</pattern>
+         <template>
+            <srai>internship internationally</srai>
+        </template>
+      </category>
+	  
+	  <category>
+         <pattern>_ internships globally</pattern>
+         <template>
+            <srai>internship internationally</srai>
+        </template>
+      </category>
+	  
+</aiml>
