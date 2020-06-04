@@ -95,7 +95,7 @@ public class ChatBotController {
     public void voiceRecord() throws IOException, InterruptedException, LineUnavailableException {
         // set the api
         IamOptions option = new IamOptions.Builder()
-                .apiKey("BiS170ZCgFKzDLmO6L0oglcbQPK2XoLNxexrwkgEkeYP")
+                .apiKey("xxx")
                 .build();
         SpeechToText service = new SpeechToText(option);
         service.setEndPoint("https://gateway-syd.watsonplatform.net/speech-to-text/api");
